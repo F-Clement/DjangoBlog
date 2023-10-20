@@ -10,7 +10,7 @@ from django_summernote.admin import SummernoteModelAdmin
 
 
 class PostAdmin(SummernoteModelAdmin):
-    summernote_fields = '__all__'
+    summernote_fields = ('text', 'content',)
 
 
 admin.site.register(Post, PostAdmin)
