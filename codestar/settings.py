@@ -146,11 +146,11 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-SUMMERNOTE_CONFIG = {
-    'iframe': True,
-    "jquery": "summernoteJQuery",
-    'summernote': {
-        'width': '100%'
-    }
-}
-SUMMERNOTE_THEME = 'bs3'
+# SUMMERNOTE_CONFIG = {
+#     'iframe': True,
+#     "jquery": "summernoteJQuery",
+#     'summernote': {
+#         'width': '100%'
+#     }
+# }
+# SUMMERNOTE_THEME = 'bs3'
