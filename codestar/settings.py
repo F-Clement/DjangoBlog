@@ -32,7 +32,8 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ['8000-f-clement-djangoblog-wnjt2tful4.us2.codeanyapp.com']
 # ALLOWED_HOSTS = ['codestarapp.herokuapp.com', 'localhost']
-ALLOWED_HOSTS = ['codestarapp-3413b894e3a5.herokuapp.com']
+ALLOWED_HOSTS = ['codestarapp-3413b894e3a5.herokuapp.com',
+                 '8000-f-clement-djangoblog-wnjt2tful4.us2.codeanyapp.com']
 
 
 # Application definition
@@ -152,4 +153,4 @@ SUMMERNOTE_CONFIG = {
         'width': '100%'
     }
 }
-SUMMERNOTE_THEME = 'bs3'
+SUMMERNOTE_THEME = 'bs4'
